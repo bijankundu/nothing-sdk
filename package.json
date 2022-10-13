@@ -1,12 +1,18 @@
 {
   "name": "nothing_sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bijankundu/nothing-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bijankundu/nothing-sdk/issues"
+  },
+  "homepage": "https://github.com/bijankundu/nothing-sdk#readme",
   "scripts": {
-    "dev": "webpack watch",
-    "lint": "eslint src/**/*.js",
-    "build:es2015": "babel ./src --ignore *.spec.js --out-dir ./build"
+    "lint": "eslint *.js"
   },
   "author": "Bijan Kundu",
   "license": "MIT",
@@ -15,9 +21,14 @@
     "@babel/core": "^7.19.3",
     "@babel/eslint-parser": "^7.19.1",
     "@babel/preset-env": "^7.19.4",
-    "eslint": "^8.25.0"
+    "eslint": "^8.25.0",
+    "husky": "^8.0.1"
   },
   "files": [
     "dist/**/*"
+  ],
+  "keywords": [
+    "nothing",
+    "useless"
   ]
 }
