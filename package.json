@@ -13,7 +13,9 @@
   "homepage": "https://github.com/bijankundu/nothing-sdk#readme",
   "scripts": {
     "lint": "eslint *.js",
-    "prepare": "husky install"
+    "postinstall": "husky install",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable"
   },
   "author": "Bijan Kundu",
   "license": "MIT",
@@ -23,7 +25,8 @@
     "@babel/eslint-parser": "^7.19.1",
     "@babel/preset-env": "^7.19.4",
     "eslint": "^8.25.0",
-    "husky": "^8.0.1"
+    "husky": "^8.0.1",
+    "pinst": "^3.0.0"
   },
   "files": [
     "dist/**/*"
