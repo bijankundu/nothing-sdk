@@ -4,4 +4,4 @@ class Nothing {
   }
 }
 
-export default Nothing;
+module.exports = Nothing;
