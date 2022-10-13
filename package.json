@@ -12,7 +12,8 @@
   },
   "homepage": "https://github.com/bijankundu/nothing-sdk#readme",
   "scripts": {
-    "lint": "eslint *.js"
+    "lint": "eslint *.js",
+    "prepare": "husky install"
   },
   "author": "Bijan Kundu",
   "license": "MIT",
